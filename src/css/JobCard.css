@@ -1,0 +1,20 @@
+.JobCard {
+    background-color: rgba(230,240,255,.7);
+    width: 90%;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.25rem;
+    border-style:outset;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif};
+
+.JobCard h4 {
+    margin-top: 0.50rem;
+    margin-bottom: 0.75rem;
+}
+
+.JobCard p {
+    margin: 0px;
+    margin-bottom: 0.25rem;
+}

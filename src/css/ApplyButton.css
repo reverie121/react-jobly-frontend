@@ -1,0 +1,29 @@
+.ApplyButton {
+    float: right;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: slateblue;
+    color: aliceblue;
+    font-size: 1rem;
+    font-variant: small-caps;
+    border-radius: 0.2rem;
+    border-style: outset;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Applied {
+    float: right;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    background-color: palevioletred;
+    color: aliceblue;
+    font-size: 1rem;
+    font-variant: small-caps;
+    border-radius: 0.2rem;
+    border-style: outset;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

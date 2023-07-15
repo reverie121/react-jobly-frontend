@@ -1,0 +1,56 @@
+App - General page wrapper
+• state = user, applicationsList
+
+    NavBar - NavBar renders appropriate navigation links based on whether or not user is logged in.
+    • props = user
+
+    Home - Splash page parent component, renders appropriate splash page.
+    • props = user
+
+        AnonymousHome - Splash page for users that are not logged in.
+        • no props or state
+
+        UserHome - Splash page for users that are logged in.
+        • props = user
+
+    NewUserForm - Manages new user form data. Submits new user to parent.
+        • state = formData (username, password, first name, last name, email)
+        • props = setUser(), addUser()
+
+    LogInForm - Manages user log in form data.
+        • state = formData (username, password)
+
+    EditUserForm - Manages form data. Submits edited user to parent.
+        • state = formData (username, first name, last name, email)
+        • props = user, setUser(), editUser()
+
+    CompanyList - Displays a list of companies.
+    • state = companyList (defaults to full list)
+    • props = user, setApplicationsList()
+
+        SearchBar - Re-usable SearchBar component.
+        • props = searchType, updateList()
+
+            CompanySearchBar - Manages company search form.
+            • state = formData (search term)
+            • props = updateList() (calls setCompanyList or setJobList as appropriate)
+
+        Company - Displays an individual company.
+        • props = handle, name, num_employees, description, logo_url, setApplicationsList()
+
+                Job - Component re-used from below.
+
+    JobList - Displays a list of jobs.
+    • state = jobList (defaults to full list)
+    • props = user, setApplicationsList()
+
+        SearchBar - Re-usable SearchBar component.
+        • props = searchType, updateList()
+
+            JobSearchBar - Manages job search form.
+            • state = formData (search term)
+            • props = updateList() (calls setCompanyList or setJobList as appropriate)
+
+        Job - Displays an individual job. Should show Apply/Applied button as appropriate.
+        • props = id, title, salary, equity, company_handle, userAppliedFor, setApplicationsList()
+

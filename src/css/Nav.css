@@ -1,0 +1,36 @@
+.Nav {
+    background-color: rgb(230,240,255);
+    width: 100vw;
+    position: fixed;
+    border-style: outset;
+    border-left: 0rem;
+    border-right: 0rem;
+    border-top: 0rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.Nav a {
+    color:darkslateblue;
+    margin: 0.5rem;
+    text-decoration: none;
+}
+
+.Nav a.active {
+    color:darkblue;
+    font-weight: bold;
+}
+  
+.Nav a.active:hover {
+    color: plum !important;
+    font-weight: bolder;
+}
+
+.Nav a:hover {
+    text-decoration: none;
+    color: plum;
+    font-weight: bolder;
+}

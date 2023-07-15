@@ -1,0 +1,32 @@
+.CompanyDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.DetailsHeader {
+    background-color: rgba(230,240,255,.7);
+    width: 90%;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.3rem;
+    border-style:outset;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.JobsContainer {
+    width: 92%;
+    margin-top: 0.5rem;
+    padding: 0rem;
+    border-radius: 0.3rem;
+    border-style:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}

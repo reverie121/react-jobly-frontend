@@ -1,0 +1,50 @@
+.UserProfile form {
+    background-color: rgba(230,240,255,.7);
+    width: 500px;
+    margin-top: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-bottom: 0.75rem;
+    border-radius: 0.3rem;
+    border-style:outset;
+}
+
+.UserProfile h2 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.UserProfile label {
+    margin-top: 0.4rem;
+    color: darkslateblue;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.UserProfile input {
+    margin-top: 0.4rem;
+    width: 390px;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.UserProfile button {
+    margin-top: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.UserProfile .field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}

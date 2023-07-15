@@ -1,0 +1,14 @@
+.JobList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding-bottom: 1rem;
+}
+
+.JobList h3 {
+    margin: 1rem;
+    color:aliceblue;
+    text-shadow: .1rem .1rem darkslateblue; 
+}
